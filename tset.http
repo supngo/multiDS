@@ -1,0 +1,7 @@
+POST http://localhost:8080/test/user/Tony HTTP/1.1
+content-type: application/json
+
+###
+
+POST http://localhost:8080/test/order/ORD444 HTTP/1.1
+content-type: application/json

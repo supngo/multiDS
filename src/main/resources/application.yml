@@ -1,0 +1,15 @@
+spring:
+  datasource1:
+    url: jdbc:mysql://localhost:3306/db1
+    username: user1
+    password: pass1
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
+  datasource2:
+    url: jdbc:mysql://localhost:3406/db2
+    username: user2
+    password: pass2
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10
